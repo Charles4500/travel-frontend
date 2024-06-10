@@ -1,3 +1,5 @@
+import './public.css';
+
 function Public() {
   return (
     <div className="card">

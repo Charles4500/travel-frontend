@@ -1,15 +1,15 @@
-import React from 'react';
+import './private.css'
 
 function Private() {
   return (
-    <div className="card">
-      <div className="content">
+    <div className="cardd">
+      <div className="contentt">
         <p className="heading">Want to travel privately?</p>
-        <p className="para">
+        <p className="paran">
           Click on the button below to check on the privately available cars to
           hire and reach your destination safely
         </p>
-        <button className="btn">Private</button>
+        <button className="btun">Private</button>
       </div>
     </div>
   );
