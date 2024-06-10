@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './public.css';
-import Search from './Search';
+
 
 function Public() {
   const [display, setDisplay] = useState(false);

@@ -1,0 +1,57 @@
+.cardt {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 32px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #212121;
+  border: 2px solid #313131;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.contentd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  color: #e8e8e8;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.contentd .headingt {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.contentd .parat {
+  line-height: 1.5;
+}
+
+.contentd .btnt {
+  color: #e8e8e8;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: #ad5710;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardt:hover {
+  box-shadow: 0 0 20px rgb(238, 240, 241);
+}
+
+.contentd .btnt:hover {
+  outline: 2px solid #e8e8e8;
+  background: transparent;
+  color: #e8e8e8;
+}
+
+.contentd .btnt:active {
+  box-shadow: none;
+}
