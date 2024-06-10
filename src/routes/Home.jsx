@@ -6,12 +6,14 @@ import Nav from '../components/nav/Nav';
 
 function Home() {
   return (
-    <div className="home">
+    <>
       <Nav />
-      <Public />
-      <Private />
-      <Moving />
-    </div>
+      <div className="home">
+        <Public />
+        <Private />
+        <Moving />
+      </div>
+    </>
   );
 }
 

@@ -1,7 +1,6 @@
 #messages {
   display: flex;
   float: right;
-  max-height: none;
 }
 
 .inbox-btnn {

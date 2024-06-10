@@ -5,16 +5,25 @@ function Moving() {
   return (
     <div>
     <Nav/>
-      <div className="cardt">
-        <div className="contentd">
-          <p className="headingt">Moving out?</p>
-          <p className="parat">
-            If you are considering moving out look at the available option by
-            clicking on the button below to check on the one available
-          </p>
-          <button className="btnt">Moving</button>
+    <div>
+      <form className="form">
+        <p className="title">Just input your destination</p>
+
+        <div className="flex">
+          <label>
+            <input required="" placeholder="" type="text" className="input" />
+            <span>From</span>
+          </label>
+
+          <label>
+            <input required="" placeholder="" type="text" className="input" />
+            <span>TO</span>
+          </label>
         </div>
-      </div>
+
+        <button class="submit">Search</button>
+      </form>
+    </div>
     </div>
   );
 }

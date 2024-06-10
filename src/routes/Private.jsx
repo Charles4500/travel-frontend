@@ -4,16 +4,25 @@ function Private() {
   return (
     <div>
       <Nav />
-      <div className="cardd">
-      <div className="contentt">
-        <p className="heading">Convenience?</p>
-        <p className="paran">
-          Click on the button below to check on the privately available cars to
-          hire and reach your destination safely
-        </p>
-        <button className="btun">Private</button>
+      <div>
+        <form className="form">
+          <p className="title">Just input your destination</p>
+
+          <div className="flex">
+            <label>
+              <input required="" placeholder="" type="text" className="input" />
+              <span>From</span>
+            </label>
+
+            <label>
+              <input required="" placeholder="" type="text" className="input" />
+              <span>TO</span>
+            </label>
+          </div>
+
+          <button class="submit">Search</button>
+        </form>
       </div>
-    </div>
     </div>
   );
 }
