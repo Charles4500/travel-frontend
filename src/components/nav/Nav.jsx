@@ -2,7 +2,7 @@ import './nav.css';
 
 function Nav() {
   return (
-    <div className='messages'>
+    <div id='messages'>
       <button className="inbox-btnn">
         <svg
           viewBox="0 0 512 512"

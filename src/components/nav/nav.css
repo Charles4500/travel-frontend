@@ -1,3 +1,8 @@
+#messages {
+  display: flex;
+  float: right;
+  max-height: none;
+}
 
 .inbox-btnn {
   width: 50px;

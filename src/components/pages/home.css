@@ -1,6 +1,6 @@
 body {
-  margin: 0;
   display: flex;
+  margin: 0;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -12,4 +12,3 @@ body {
   flex-direction: row;
   gap: 25px;
 }
-
