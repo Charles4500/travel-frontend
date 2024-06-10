@@ -1,8 +1,13 @@
+import { NavLink } from 'react-router-dom';
 import './nav.css';
 
 function Nav() {
   return (
-    <div id='messages'>
+    <nav id="messages">
+      <NavLink to={'/'}>Home</NavLink>
+      <NavLink to={'/public'}>Public</NavLink>
+      <NavLink to={'/private'}>Private</NavLink>
+      <NavLink to={'/moving'}>Moving</NavLink>
       <button className="inbox-btnn">
         <svg
           viewBox="0 0 512 512"
@@ -13,7 +18,7 @@ function Nav() {
         </svg>
         <span className="msg-count">9</span>
       </button>
-    </div>
+    </nav>
   );
 }
 
