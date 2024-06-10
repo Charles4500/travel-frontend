@@ -1,13 +1,13 @@
 function Public() {
   return (
-    <div class="card">
-      <div class="content">
-        <p class="heading">Looking to travel?</p>
-        <p class="para">
+    <div className="card">
+      <div className="content">
+        <p className="heading">Looking to travel?</p>
+        <p className="para">
           Just click on the button below to view the available options of public
           means you want to use.
         </p>
-        <button class="btn">Public</button>
+        <button className="btn">Public</button>
       </div>
     </div>
   );
