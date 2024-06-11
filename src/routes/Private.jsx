@@ -1,30 +1,16 @@
-import Nav from '../components/nav/Nav';
+// import Nav from '../components/nav/Nav';
 
-function Private() {
-  return (
-    <div>
-      <Nav />
-      <div>
-        <form className="form">
-          <p className="title">Just input your destination</p>
+// function Private() {
+//   return (
+//     <div>
+//       <Nav />
+//       <form className="search">
+//         <input name="search" placeholder="From.." />
+//         <input name="search" placeholder="To.." />
+//         <button type="submit">Search</button>
+//       </form>
+//     </div>
+//   );
+// }
 
-          <div className="flex">
-            <label>
-              <input required="" placeholder="" type="text" className="input" />
-              <span>From</span>
-            </label>
-
-            <label>
-              <input required="" placeholder="" type="text" className="input" />
-              <span>TO</span>
-            </label>
-          </div>
-
-          <button class="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  );
-}
-
-export default Private;
+// export default Private;

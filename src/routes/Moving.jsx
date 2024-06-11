@@ -1,31 +1,18 @@
-import React from 'react';
-import Nav from '../components/nav/Nav';
+// import React from 'react';
+// import Nav from '../components/nav/Nav';
 
-function Moving() {
-  return (
-    <div>
-    <Nav/>
-    <div>
-      <form className="form">
-        <p className="title">Just input your destination</p>
+// function Moving() {
+//   return (
+//     <div>
+//       <Nav />
+//       <form className="search">
+//         <input name="search" placeholder="From..." />
+//         <input name="search" placeholder="To..." />
 
-        <div className="flex">
-          <label>
-            <input required="" placeholder="" type="text" className="input" />
-            <span>From</span>
-          </label>
+//         <button type="submit">Search</button>
+//       </form>
+//     </div>
+//   );
+// }
 
-          <label>
-            <input required="" placeholder="" type="text" className="input" />
-            <span>TO</span>
-          </label>
-        </div>
-
-        <button class="submit">Search</button>
-      </form>
-    </div>
-    </div>
-  );
-}
-
-export default Moving;
+// export default Moving;
