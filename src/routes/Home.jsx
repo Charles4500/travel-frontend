@@ -52,7 +52,7 @@ function Home() {
         <div class="hidden lg:block">
           <a
             class="inline-block py-3 px-8 text-sm leading-normal font-medium rounded bg-[#292929] border-2 border-[#3e3e3e] text-white   hover:border-[#fff] cursor-pointer transition"
-            href="#"
+            href="contact"
           >
             Contact Us
           </a>

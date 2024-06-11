@@ -1,6 +1,7 @@
+
 function Public() {
   return (
-    <div>
+    <div className="public">
       <section>
         <div class="skew skew-top mr-for-radius">
           <svg

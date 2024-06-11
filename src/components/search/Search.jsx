@@ -6,23 +6,20 @@ function Search() {
       <section className="add-card page">
         <form className="form">
           <label for="name" className="label">
-            <span className="title">Card holder full name</span>
+            <span className="title">Enter your location</span>
             <input
-              class="input-field"
+              className="input-field"
               type="text"
               name="input-location"
-              title="Input title"
               placeholder="Enter your location"
             />
           </label>
           <label for="serialCardNumber" class="label">
-            <span class="title">Card Number</span>
+            <span class="title">Enter your destination</span>
             <input
-              id="serialCardNumber"
               className="input-field"
-              type="number"
+              type="text"
               name="input-name"
-              title="Input title"
               placeholder="Anywhere"
             />
           </label>
@@ -30,27 +27,25 @@ function Search() {
             <label for="ExDate" className="label">
               <span className="title">Depart</span>
               <input
-                id="ExDate"
                 className="input-field"
                 type="date"
-                name="input-name"
-                title="Expiry Date"
+                name="input-date"
                 placeholder="Date"
               />
             </label>
             <label for="cvv" className="label">
-              <span className="title"> Return</span>
+              <span className="title">Passengers</span>
               <input
-                id="cvv"
                 className="input-field"
-                type="date"
-                name="cvv"
-                title="CVV"
-                placeholder="Date"
+                type="number"
+                name="amount"
+                placeholder="boarding.."
               />
             </label>
           </div>
-          <input className="checkout-btn" type="button" value="Checkout" />
+          <button className="checkout-btn" type="submit">
+            Search
+          </button>
         </form>
       </section>
     </div>

@@ -3,6 +3,7 @@ import Home from './Home';
 import Private from './Private';
 import Public from './Public';
 import { createBrowserRouter } from 'react-router-dom';
+import Contact from './Contact';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: '/moving',
     element: <Moving />,
+  },
+  {
+    path: '/contact',
+    element: <Contact />,
   },
 ]);
 export default router;
