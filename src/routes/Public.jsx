@@ -1,17 +1,11 @@
-// import React from 'react';
-// import Nav from '../components/nav/Nav';
+import Navigation from '../components/nav/Navigation';
 
-// function Public() {
-//   return (
-//     <div>
-//       <Nav />
-//       <form className="search">
-//         <input name="search" placeholder="From.." />
-//         <input name="search" placeholder="To.." />
-//         <button type="submit">Search</button>
-//       </form>
-//     </div>
-//   );
-// }
+function Public() {
+  return (
+    <div>
+      <Navigation />
+    </div>
+  );
+}
 
-// export default Public;
+export default Public;

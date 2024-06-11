@@ -1,18 +1,12 @@
-// import React from 'react';
-// import Nav from '../components/nav/Nav';
+import Navigation from '../components/nav/Navigation';
 
-// function Moving() {
-//   return (
-//     <div>
-//       <Nav />
-//       <form className="search">
-//         <input name="search" placeholder="From..." />
-//         <input name="search" placeholder="To..." />
+function Moving() {
+  return (
+    <div>
+      <Navigation />
+      <h1>Moving page</h1>
+    </div>
+  );
+}
 
-//         <button type="submit">Search</button>
-//       </form>
-//     </div>
-//   );
-// }
-
-// export default Moving;
+export default Moving;

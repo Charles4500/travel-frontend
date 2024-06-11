@@ -27,7 +27,7 @@ function Home() {
           <li>
             <a
               class="text-white hover:text-blue-100 text-sm font-semibold"
-              href="#"
+              href="public"
             >
               Public
             </a>
@@ -35,7 +35,7 @@ function Home() {
           <li>
             <a
               class="text-white hover:text-blue-100 text-sm font-semibold"
-              href="#"
+              href="private"
             >
               Private
             </a>
@@ -43,7 +43,7 @@ function Home() {
           <li>
             <a
               class="text-white hover:text-blue-100 text-sm font-semibold"
-              href="#"
+              href="moving"
             >
               Moving
             </a>
@@ -126,7 +126,7 @@ function Home() {
               </p>
               <a
                 class="ml-auto flex items-center justify-center w-14 h-14 rounded-full bg-blue-800 hover:bg-blue-700 text-white"
-                href="#"
+                href="public"
               >
                 <svg
                   width="19"
@@ -204,7 +204,7 @@ function Home() {
               </p>
               <a
                 class="ml-auto flex items-center justify-center w-14 h-14 rounded-full bg-blue-800 hover:bg-blue-700 text-white"
-                href="#"
+                href="private"
               >
                 <svg
                   width="19"
@@ -284,7 +284,7 @@ function Home() {
               </p>
               <a
                 class="ml-auto flex items-center justify-center w-14 h-14 rounded-full bg-blue-800 hover:bg-blue-700 text-white"
-                href="#"
+                href="moving"
               >
                 <svg
                   width="19"
