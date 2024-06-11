@@ -8,14 +8,9 @@ function Navigation() {
       <NavLink to={'/private'}></NavLink>
       <NavLink to={'/moving'}></NavLink>
       <NavLink to={'/contact'}></NavLink>
-      <nav class="flex justify-between items-center py-8 px-4 xl:px-10">
-        <a class="text-lg font-semibold" href="#">
-          <img
-            class="h-7"
-            src="zeus-assets/logo/logo-zeus-white.svg"
-            alt=""
-            width="auto"
-          />
+      <nav class="flex justify-between items-center py-8 px-4 xl:px-10 bg-[#292929] ">
+        <a class="text-lg font-semibold" href="/">
+          <img class="h-8" src="/src/assets/download.png" alt="" width="auto" />
         </a>
         <div class="lg:hidden">
           <button class="navbar-burger flex items-center p-3 hover:bg-blue-300 rounded">

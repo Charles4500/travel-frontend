@@ -2,12 +2,13 @@ function Home() {
   return (
     <section class="relative bg-[#292929] pb-20">
       <nav class="flex justify-between items-center py-8 px-4 xl:px-10">
-        <a class="text-lg font-semibold" href="#">
+        <a class="text-lg font-semibold" href="/">
           <img
-            class="h-7"
-            src="zeus-assets/logo/logo-zeus-white.svg"
+            class="h-8"
+            src="/src/assets/download.png"
             alt=""
-            width="auto"
+            width="92"
+            height="30"
           />
         </a>
         <div class="lg:hidden">
