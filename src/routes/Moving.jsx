@@ -1,10 +1,11 @@
 import Navigation from '../components/nav/Navigation';
+import Search from '../components/search/Search';
 
 function Moving() {
   return (
     <div>
       <Navigation />
-      <h1>Moving page</h1>
+      <Search />
     </div>
   );
 }
