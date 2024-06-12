@@ -1,57 +1,100 @@
-/* .cardt {
-  position: relative;
+.loader {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 320px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  padding: 32px;
-  overflow: hidden;
-  border-radius: 10px;
-  background: #212121;
-  border: 2px solid #313131;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.contentd {
+.truckWrapper {
+  width: 200px;
+  height: 100px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  color: #e8e8e8;
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  overflow-x: hidden;
+}
+/* truck upper body */
+.truckBody {
+  width: 130px;
+  height: fit-content;
+  margin-bottom: 6px;
+  animation: motion 1s linear infinite;
+}
+/* truck suspension animation*/
+@keyframes motion {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+/* truck's tires */
+.truckTires {
+  width: 130px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 15px;
+  position: absolute;
+  bottom: 0;
+}
+.truckTires svg {
+  width: 24px;
 }
 
-.contentd .headingt {
-  font-weight: 700;
-  font-size: 32px;
+.road {
+  width: 100%;
+  height: 1.5px;
+  background-color: #282828;
+  position: relative;
+  bottom: 0;
+  align-self: flex-end;
+  border-radius: 3px;
+}
+.road::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  background-color: #282828;
+  right: -50%;
+  border-radius: 3px;
+  animation: roadAnimation 1.4s linear infinite;
+  border-left: 10px solid white;
+}
+.road::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background-color: #282828;
+  right: -65%;
+  border-radius: 3px;
+  animation: roadAnimation 1.4s linear infinite;
+  border-left: 4px solid white;
 }
 
-.contentd .parat {
-  line-height: 1.5;
+.lampPost {
+  position: absolute;
+  bottom: 0;
+  right: -90%;
+  height: 90px;
+  animation: roadAnimation 1.4s linear infinite;
 }
 
-.contentd .btnt {
-  color: #e8e8e8;
-  text-decoration: none;
-  padding: 10px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  background: #ad5710;
-  border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+@keyframes roadAnimation {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-350px);
+  }
 }
-
-.cardt:hover {
-  box-shadow: 0 0 20px rgb(238, 240, 241);
-}
-
-.contentd .btnt:hover {
-  outline: 2px solid #e8e8e8;
-  background: transparent;
-  color: #e8e8e8;
-}
-
-.contentd .btnt:active {
-  box-shadow: none;
-} */
