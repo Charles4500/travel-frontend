@@ -1,3 +1,4 @@
+import Footer from '../components/footer/Footer';
 import Navigation from '../components/nav/Navigation';
 import Front from '../components/public/Front';
 import Publict from '../components/public/Publict';
@@ -10,6 +11,7 @@ function Public() {
       <Front />
       <Search />
       <Publict />
+      <Footer />
     </div>
   );
 }
