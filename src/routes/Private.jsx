@@ -1,13 +1,14 @@
 import Footer from '../components/footer/Footer';
 import Navigation from '../components/nav/Navigation';
-import Search from '../components/search/Search';
+import Owner from '../components/private/Owner';
 
 function Private() {
   return (
     <div>
       <Navigation />
-      <Search />
-      <Footer/>
+
+      <Owner />
+      <Footer />
     </div>
   );
 }

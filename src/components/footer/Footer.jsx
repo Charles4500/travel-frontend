@@ -13,13 +13,8 @@ function Footer() {
           <div class="flex flex-wrap -m-8">
             <div class="w-full sm:w-1/2 lg:w-6/12 p-8">
               <div class="lg:max-w-sm">
-                <a class="mb-8 inline-block" href="#">
-                  <img src="flaro-assets/logos/flaro-logo-light.svg" alt="" />
-                </a>
-                <p class="mb-20 text-gray-400 font-medium leading-relaxed md:max-w-xs">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Lectus interdum facilisis odio scelerisque vel neque.
-                </p>
+                <a class="mb-8 inline-block" href="#"></a>
+
                 <div class="flex flex-wrap -m-1.5">
                   <div class="w-auto p-1.5">
                     <a href="#">
@@ -88,7 +83,7 @@ function Footer() {
                     class="text-white hover:text-gray-200 font-medium leading-relaxed"
                     href="#"
                   >
-                    Services
+                    Ticket booking
                   </a>
                 </li>
                 <li class="mb-5">
@@ -96,7 +91,7 @@ function Footer() {
                     class="text-white hover:text-gray-200 font-medium leading-relaxed"
                     href="#"
                   >
-                    About Us
+                    Car hire
                   </a>
                 </li>
                 <li class="mb-5">
@@ -104,66 +99,12 @@ function Footer() {
                     class="text-white hover:text-gray-200 font-medium leading-relaxed"
                     href="#"
                   >
-                    News & Stories
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Roadmap
+                    Moving
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="w-full sm:w-1/2 lg:w-2/12 p-8">
-              <h3 class="mb-8 text-sm text-gray-600 uppercase font-semibold leading-normal tracking-px">
-                Important links
-              </h3>
-              <ul>
-                <li class="mb-5">
-                  <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Our Journeys
-                  </a>
-                </li>
-                <li class="mb-5">
-                  <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Pricing Plans
-                  </a>
-                </li>
-                <li class="mb-5">
-                  <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Roadmap
-                  </a>
-                </li>
-                <li class="mb-5">
-                  <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Terms & Conditions
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Privacy Policy
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <div class="w-full sm:w-1/2 lg:w-2/12 p-8"></div>
             <div class="w-full sm:w-1/2 lg:w-2/12 p-8">
               <h3 class="mb-8 text-sm text-gray-600 uppercase font-semibold leading-normal tracking-px">
                 Company
@@ -174,25 +115,10 @@ function Footer() {
                     class="text-white hover:text-gray-200 font-medium leading-relaxed"
                     href="#"
                   >
-                    About Us
-                  </a>
-                </li>
-                <li class="mb-5">
-                  <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
-                    href="#"
-                  >
                     Jobs
                   </a>
                 </li>
-                <li class="mb-5">
-                  <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
-                    href="#"
-                  >
-                    Press
-                  </a>
-                </li>
+
                 <li>
                   <a
                     class="text-white hover:text-gray-200 font-medium leading-relaxed"
@@ -206,7 +132,7 @@ function Footer() {
           </div>
         </div>
         <p class="py-5 text-sm text-gray-300 font-medium text-center leading-normal">
-          Copyright © 2022 Flaro. All Rights Reserved
+          Copyright © 2022 Biegon_dev. All Rights Reserved
         </p>
       </div>
     </section>

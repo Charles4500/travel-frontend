@@ -4,6 +4,7 @@ import Private from './Private';
 import Public from './Public';
 import { createBrowserRouter } from 'react-router-dom';
 import Contact from './Contact';
+import Rent from '../components/private/Rent';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: '/contact',
     element: <Contact />,
+  },
+  {
+    path: '/rent',
+    element: <Rent />,
   },
 ]);
 export default router;
