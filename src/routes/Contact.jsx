@@ -5,22 +5,22 @@ function Contact() {
   return (
     <div className=" bg-[#292929] ">
       <Navigation />
-      <section class="py-24 bg-blueGray-950 ">
-        <div class="container px-4 mx-auto">
-          <div class="relative px-4 max-w-sm mx-auto pt-20 pb-16 text-center border border-gray-900 border-opacity-30 rounded-5xl">
+      <section className="py-24 bg-blueGray-950 ">
+        <div className="container px-4 mx-auto">
+          <div className="relative px-4 max-w-sm mx-auto pt-20 pb-16 text-center border border-gray-900 border-opacity-30 rounded-5xl">
             <img
-              class="absolute -top-12 left-1/2 transform -translate-x-1/2"
+              className="absolute -top-12 left-1/2 transform -translate-x-1/2"
               src="nightsable-assets/images/cards/avatar1.png"
               alt=""
             />
-            <h2 class="mb-4 text-4xl text-white tracking-4xl md:max-w-sm mx-auto">
+            <h2 className="mb-4 text-4xl text-white tracking-4xl md:max-w-sm mx-auto">
               Jane Doe
             </h2>
-            <p class="mb-10 text-gray-300 md:max-w-xs mx-auto">Mar 30 th</p>
-            <ul class="relative">
-              <li class="flex flex-wrap justify-center mb-6">
+            <p className="mb-10 text-gray-300 md:max-w-xs mx-auto">Mar 30 th</p>
+            <ul className="relative">
+              <li className="flex flex-wrap justify-center mb-6">
                 <svg
-                  class="mr-4"
+                  className="mr-4"
                   xmlns="http://www.w3.org/2000/svg"
                   width="25"
                   height="24"
@@ -34,11 +34,11 @@ function Contact() {
                     stroke-miterlimit="10"
                   ></path>
                 </svg>
-                <span class="text-white">(205) 555-0100</span>
+                <span className="text-white">(205) 555-0100</span>
               </li>
-              <li class="flex flex-wrap justify-center">
+              <li className="flex flex-wrap justify-center">
                 <svg
-                  class="mr-4"
+                  className="mr-4"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -62,10 +62,10 @@ function Contact() {
                     stroke-linejoin="round"
                   ></path>
                 </svg>
-                <span class="text-white">
+                <span className="text-white">
                   <a
                     href="/cdn-cgi/l/email-protection"
-                    class="__cf_email__"
+                    className="__cf_email__"
                     data-cfemail="11727e7f65707265515f787679656270737d746574707c3f727e"
                   >
                     [email protected]
@@ -74,7 +74,7 @@ function Contact() {
               </li>
             </ul>
             <img
-              class="absolute bottom-0 left-0"
+              className="absolute bottom-0 left-0"
               src="nightsable-assets/images/cards/blur.svg"
               alt=""
             />

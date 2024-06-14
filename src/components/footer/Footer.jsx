@@ -2,23 +2,23 @@ import React from 'react';
 
 function Footer() {
   return (
-    <section class="relative pt-24 bg-black overflow-hidden">
+    <section className="relative pt-24 bg-black overflow-hidden">
       <img
-        class="absolute left-1/2 bottom-0 h-full transform -translate-x-1/2"
+        className="absolute left-1/2 bottom-0 h-full transform -translate-x-1/2"
         src="flaro-assets/images/footers/gradient.svg"
         alt=""
       />
-      <div class="relative z-10 container px-4 mx-auto">
-        <div class="pb-24 border-b border-gray-900">
-          <div class="flex flex-wrap -m-8">
-            <div class="w-full sm:w-1/2 lg:w-6/12 p-8">
-              <div class="lg:max-w-sm">
-                <a class="mb-8 inline-block" href="#"></a>
+      <div className="relative z-10 container px-4 mx-auto">
+        <div className="pb-24 border-b border-gray-900">
+          <div className="flex flex-wrap -m-8">
+            <div className="w-full sm:w-1/2 lg:w-6/12 p-8">
+              <div className="lg:max-w-sm">
+                <a className="mb-8 inline-block" href="#"></a>
 
-                <div class="flex flex-wrap -m-1.5">
-                  <div class="w-auto p-1.5">
+                <div className="flex flex-wrap -m-1.5">
+                  <div className="w-auto p-1.5">
                     <a href="#">
-                      <div class="flex items-center justify-center w-9 h-9 border border-gray-800 hover:border-gray-900 rounded-full">
+                      <div className="flex items-center justify-center w-9 h-9 border border-gray-800 hover:border-gray-900 rounded-full">
                         <svg
                           width="9"
                           height="16"
@@ -34,9 +34,9 @@ function Footer() {
                       </div>
                     </a>
                   </div>
-                  <div class="w-auto p-1.5">
+                  <div className="w-auto p-1.5">
                     <a href="#">
-                      <div class="flex items-center justify-center w-9 h-9 border border-gray-800 hover:border-gray-900 rounded-full">
+                      <div className="flex items-center justify-center w-9 h-9 border border-gray-800 hover:border-gray-900 rounded-full">
                         <svg
                           width="15"
                           height="13"
@@ -52,9 +52,9 @@ function Footer() {
                       </div>
                     </a>
                   </div>
-                  <div class="w-auto p-1.5">
+                  <div className="w-auto p-1.5">
                     <a href="#">
-                      <div class="flex items-center justify-center w-9 h-9 border border-gray-800 hover:border-gray-900 rounded-full">
+                      <div className="flex items-center justify-center w-9 h-9 border border-gray-800 hover:border-gray-900 rounded-full">
                         <svg
                           width="17"
                           height="17"
@@ -73,30 +73,30 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div class="w-full sm:w-1/2 lg:w-2/12 p-8">
-              <h3 class="mb-8 text-sm text-gray-600 uppercase font-semibold leading-normal tracking-px">
+            <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
+              <h3 className="mb-8 text-sm text-gray-600 uppercase font-semibold leading-normal tracking-px">
                 Products
               </h3>
               <ul>
-                <li class="mb-5">
+                <li className="mb-5">
                   <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
+                    className="text-white hover:text-gray-200 font-medium leading-relaxed"
                     href="#"
                   >
                     Ticket booking
                   </a>
                 </li>
-                <li class="mb-5">
+                <li className="mb-5">
                   <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
+                    className="text-white hover:text-gray-200 font-medium leading-relaxed"
                     href="#"
                   >
                     Car hire
                   </a>
                 </li>
-                <li class="mb-5">
+                <li className="mb-5">
                   <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
+                    className="text-white hover:text-gray-200 font-medium leading-relaxed"
                     href="#"
                   >
                     Moving
@@ -104,15 +104,15 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="w-full sm:w-1/2 lg:w-2/12 p-8"></div>
-            <div class="w-full sm:w-1/2 lg:w-2/12 p-8">
-              <h3 class="mb-8 text-sm text-gray-600 uppercase font-semibold leading-normal tracking-px">
+            <div className="w-full sm:w-1/2 lg:w-2/12 p-8"></div>
+            <div className="w-full sm:w-1/2 lg:w-2/12 p-8">
+              <h3 className="mb-8 text-sm text-gray-600 uppercase font-semibold leading-normal tracking-px">
                 Company
               </h3>
               <ul>
-                <li class="mb-5">
+                <li className="mb-5">
                   <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
+                    className="text-white hover:text-gray-200 font-medium leading-relaxed"
                     href="#"
                   >
                     Jobs
@@ -121,7 +121,7 @@ function Footer() {
 
                 <li>
                   <a
-                    class="text-white hover:text-gray-200 font-medium leading-relaxed"
+                    className="text-white hover:text-gray-200 font-medium leading-relaxed"
                     href="#"
                   >
                     Contact Us
@@ -131,7 +131,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <p class="py-5 text-sm text-gray-300 font-medium text-center leading-normal">
+        <p className="py-5 text-sm text-gray-300 font-medium text-center leading-normal">
           Copyright © 2022 Biegon_dev. All Rights Reserved
         </p>
       </div>

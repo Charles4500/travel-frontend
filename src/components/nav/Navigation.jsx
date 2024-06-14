@@ -10,14 +10,19 @@ function Navigation() {
       <NavLink to={'/contact'}></NavLink>
       <NavLink to={'/hire'}></NavLink>
       <NavLink to={'/rent'}></NavLink>
-      <nav class="flex justify-between items-center py-8 px-4 xl:px-10 bg-[#292929] ">
-        <a class="text-lg font-semibold" href="/">
-          <img class="h-8" src="/src/assets/download.png" alt="" width="auto" />
+      <nav className="flex justify-between items-center py-8 px-4 xl:px-10 bg-[#292929] ">
+        <a className="text-lg font-semibold" href="/">
+          <img
+            className="h-8"
+            src="/src/assets/download.png"
+            alt=""
+            width="auto"
+          />
         </a>
-        <div class="lg:hidden">
-          <button class="navbar-burger flex items-center p-3 hover:bg-blue-300 rounded">
+        <div className="lg:hidden">
+          <button className="navbar-burger flex items-center p-3 hover:bg-blue-300 rounded">
             <svg
-              class="text-white block h-4 w-4"
+              className="text-white block h-4 w-4"
               viewbox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -27,10 +32,10 @@ function Navigation() {
             </svg>
           </button>
         </div>
-        <ul class="hidden lg:ml-auto lg:mr-12 lg:flex lg:items-center lg:space-x-12">
+        <ul className="hidden lg:ml-auto lg:mr-12 lg:flex lg:items-center lg:space-x-12">
           <li>
             <a
-              class="text-white hover:text-blue-100 text-sm font-semibold"
+              className="text-white hover:text-blue-100 text-sm font-semibold"
               href="public"
             >
               Public
@@ -38,7 +43,7 @@ function Navigation() {
           </li>
           <li>
             <a
-              class="text-white hover:text-blue-100 text-sm font-semibold"
+              className="text-white hover:text-blue-100 text-sm font-semibold"
               href="private"
             >
               Private
@@ -46,16 +51,16 @@ function Navigation() {
           </li>
           <li>
             <a
-              class="text-white hover:text-blue-100 text-sm font-semibold"
+              className="text-white hover:text-blue-100 text-sm font-semibold"
               href="moving"
             >
               Moving
             </a>
           </li>
         </ul>
-        <div class="hidden lg:block">
+        <div className="hidden lg:block">
           <a
-            class="inline-block py-3 px-8 text-sm leading-normal font-medium rounded bg-[#292929] border-2 border-[#3e3e3e] text-white   hover:border-[#fff] cursor-pointer transition"
+            className="inline-block py-3 px-8 text-sm leading-normal font-medium rounded bg-[#292929] border-2 border-[#3e3e3e] text-white   hover:border-[#fff] cursor-pointer transition"
             href="contact"
           >
             Contact Us

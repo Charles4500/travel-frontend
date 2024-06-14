@@ -31,8 +31,8 @@ function Search() {
               onChange={handleInput}
             />
           </label>
-          <label for="serialCardNumber" class="label">
-            <span class="title">Enter your destination</span>
+          <label for="serialCardNumber" className="label">
+            <span className="title">Enter your destination</span>
             <input
               className="input-field"
               type="text"
@@ -42,7 +42,7 @@ function Search() {
               onChange={handleInput}
             />
           </label>
-          <div class="split">
+          <div className="split">
             <label for="ExDate" className="label">
               <span className="title">Depart</span>
               <input

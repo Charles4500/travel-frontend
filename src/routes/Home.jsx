@@ -3,18 +3,18 @@ import Footer from '../components/footer/Footer';
 function Home() {
   return (
     <>
-      <section class="relative bg-[#292929] pb-20">
-        <nav class="flex justify-between items-center py-8 px-4 xl:px-10">
-          <a class="text-lg font-semibold" href="/">
+      <section className="relative bg-[#292929] pb-20">
+        <nav className="flex justify-between items-center py-8 px-4 xl:px-10">
+          <a className="text-lg font-semibold" href="/">
             <img
-              class="h-8"
+              className="h-8"
               src="/src/assets/download.png"
               alt=""
               width="92"
               height="30"
             />
           </a>
-          <div class="lg:hidden">
+          <div className="lg:hidden">
             <button class="navbar-burger flex items-center p-3 hover:bg-blue-300 rounded">
               <svg
                 class="text-white block h-4 w-4"
@@ -30,15 +30,15 @@ function Home() {
           <ul class="hidden lg:ml-auto lg:mr-12 lg:flex lg:items-center lg:space-x-12">
             <li>
               <a
-                class="text-white hover:text-blue-100 text-sm font-semibold"
+                className="text-white hover:text-blue-100 text-sm font-semibold"
                 href="public"
               >
                 Public
               </a>
             </li>
             <li>
-              <button class="relative group inline-flex items-center text-left text-base font-bold text-white">
-                <span class="mr-2">Private</span>
+              <button className="relative group inline-flex items-center text-left text-base font-bold text-white">
+                <span className="mr-2">Private</span>
                 <svg
                   width="8"
                   height="6"
@@ -51,16 +51,16 @@ function Home() {
                     fill="currentColor"
                   ></path>
                 </svg>
-                <div class="hidden group-hover:block absolute z-50 bottom-0 left-0 transform translate-y-full w-56 pt-6">
-                  <div class="p-2 bg-white border-2 border-black rounded-md shadow">
+                <div className="hidden group-hover:block absolute z-50 bottom-0 left-0 transform translate-y-full w-56 pt-6">
+                  <div className="p-2 bg-white border-2 border-black rounded-md shadow">
                     <a
-                      class="block p-2 text-sm font-bold text-black hover:text-indigo-500"
+                      className="block p-2 text-sm font-bold text-black hover:text-indigo-500"
                       href="hire"
                     >
                       Hire
                     </a>
                     <a
-                      class="block p-2 text-sm font-bold text-black hover:text-indigo-500"
+                      className="block p-2 text-sm font-bold text-black hover:text-indigo-500"
                       href="rent"
                     >
                       Rent
@@ -71,16 +71,16 @@ function Home() {
             </li>
             <li>
               <a
-                class="text-white hover:text-blue-100 text-sm font-semibold"
+                className="text-white hover:text-blue-100 text-sm font-semibold"
                 href="moving"
               >
                 Moving
               </a>
             </li>
           </ul>
-          <div class="hidden lg:block">
+          <div className="hidden lg:block">
             <a
-              class="inline-block py-3 px-8 text-sm leading-normal font-medium rounded bg-[#292929] border-2 border-[#3e3e3e] text-white   hover:border-[#fff] cursor-pointer transition"
+              className="inline-block py-3 px-8 text-sm leading-normal font-medium rounded bg-[#292929] border-2 border-[#3e3e3e] text-white   hover:border-[#fff] cursor-pointer transition"
               href="contact"
             >
               Contact Us
@@ -88,33 +88,35 @@ function Home() {
           </div>
         </nav>
         <img
-          class="hidden lg:block lg:absolute top-0 left-0 mt-32"
+          className="hidden lg:block lg:absolute top-0 left-0 mt-32"
           src="zeus-assets/icons/dots/yellow-dot-left-bars.svg"
           alt=""
         />
         <img
-          class="hidden lg:block lg:absolute bottom-0 right-0 mt-20"
+          className="hidden lg:block lg:absolute bottom-0 right-0 mt-20"
           src="zeus-assets/icons/dots/red-dot-right-shield.svg"
           alt=""
         />
-        <div class="relative container pt-12 px-4 mb-20 mx-auto text-center">
-          <span class="text-blue-500 font-semibold">What's new at Shuffle</span>
-          <h2 class="mt-8 mb-8 lg:mb-12 text-white text-4xl lg:text-6xl font-semibold">
+        <div className="relative container pt-12 px-4 mb-20 mx-auto text-center">
+          <span className="text-blue-500 font-semibold">
+            What's new at Shuffle
+          </span>
+          <h2 className="mt-8 mb-8 lg:mb-12 text-white text-4xl lg:text-6xl font-semibold">
             Traveling just got easier
           </h2>
-          <p class="max-w-3xl mx-auto mb-8 lg:mb-12 text-white text-xl opacity-50">
+          <p className="max-w-3xl mx-auto mb-8 lg:mb-12 text-white text-xl opacity-50">
             Build a well-presented brand that everyone will love. Take care to
             develop resources continually and integrity them with previous
             projects.
           </p>
           <a
-            class="relative z-10 inline-block w-full md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-red-400 hover:bg-red-300 text-white rounded transition duration-200"
+            className="relative z-10 inline-block w-full md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-red-400 hover:bg-red-300 text-white rounded transition duration-200"
             href="#"
           >
             Try for free
           </a>
         </div>
-        <div class="max-w-6xl px-4 mx-auto ">
+        <div className="max-w-6xl px-4 mx-auto ">
           <div class="flex flex-wrap -mx-4">
             <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">
               <div class="p-8 border border-blue-800 rounded-lg hover:bg-gray-900 hover:scale-110 duration-700 ">
@@ -344,21 +346,24 @@ function Home() {
             </div>
           </div>
         </div>
-        <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
-          <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-          <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
-            <div class="flex items-center mb-8">
-              <a class="mr-auto text-lg font-semibold leading-none" href="#">
+        <div className="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+          <div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+          <nav className="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
+            <div className="flex items-center mb-8">
+              <a
+                className="mr-auto text-lg font-semibold leading-none"
+                href="#"
+              >
                 <img
-                  class="h-7"
+                  className="h-7"
                   src="zeus-assets/logo/logo-zeus-red.svg"
                   alt=""
                   width="auto"
                 />
               </a>
-              <button class="navbar-close">
+              <button className="navbar-close">
                 <svg
-                  class="h-6 w-6 text-gray-500 cursor-pointer hover:text-gray-500"
+                  className="h-6 w-6 text-gray-500 cursor-pointer hover:text-gray-500"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewbox="0 0 24 24"
@@ -375,25 +380,25 @@ function Home() {
             </div>
             <div>
               <ul>
-                <li class="mb-1">
+                <li className="mb-1">
                   <a
-                    class="block p-4 text-sm font-medium text-gray-900 hover:bg-gray-50 rounded"
+                    className="block p-4 text-sm font-medium text-gray-900 hover:bg-gray-50 rounded"
                     href="#"
                   >
                     Public
                   </a>
                 </li>
-                <li class="mb-1">
+                <li className="mb-1">
                   <a
-                    class="block p-4 text-sm font-medium text-gray-900 hover:bg-gray-50 rounded"
+                    className="block p-4 text-sm font-medium text-gray-900 hover:bg-gray-50 rounded"
                     href="#"
                   >
                     Private
                   </a>
                 </li>
-                <li class="mb-1">
+                <li className="mb-1">
                   <a
-                    class="block p-4 text-sm font-medium text-gray-900 hover:bg-gray-50 rounded"
+                    className="block p-4 text-sm font-medium text-gray-900 hover:bg-gray-50 rounded"
                     href="#"
                   >
                     Moving
@@ -401,16 +406,16 @@ function Home() {
                 </li>
               </ul>
             </div>
-            <div class="mt-auto">
-              <div class="pt-6">
+            <div className="mt-auto">
+              <div className="pt-6">
                 <a
-                  class="block py-3 text-center text-sm leading-normal rounded bg-red-50 hover:bg-red-200 text-red-500 font-semibold transition duration-200"
+                  className="block py-3 text-center text-sm leading-normal rounded bg-red-50 hover:bg-red-200 text-red-500 font-semibold transition duration-200"
                   href="#"
                 >
                   Contact Us
                 </a>
               </div>
-              <p class="mt-6 mb-4 text-sm text-center text-gray-500">
+              <p className="mt-6 mb-4 text-sm text-center text-gray-500">
                 <span>© 2021 All rights reserved.</span>
               </p>
             </div>

@@ -6,32 +6,32 @@ function Private() {
     <div>
       <Navigation />
 
-      <section class="py-20 overflow-hidden bg-[#292929] ">
-        <div class="container px-4 mx-auto">
-          <div class="text-center mb-20">
-            <h1 class="text-gray-300 md:max-w-md mx-auto">
+      <section className="py-20 overflow-hidden bg-[#292929] ">
+        <div className="container px-4 mx-auto">
+          <div className="text-center mb-20">
+            <h1 className="text-gray-300 md:max-w-md mx-auto">
               If you are looking to hire out or rent out a car then this is the
               best place to do this
             </h1>
           </div>
-          <div class="flex flex-wrap">
-            <div class="w-full md:w-1/2 p-5">
-              <div class="p-12 lg:p-16 border border-gray-900 rounded-5xl">
-                <h2 class="mb-6 text-5xl text-white tracking-5xl">
+          <div className="flex flex-wrap">
+            <div className="w-full md:w-1/2 p-5">
+              <div className="p-12 lg:p-16 border border-gray-900 rounded-5xl">
+                <h2 className="mb-6 text-5xl text-white tracking-5xl">
                   Are you renting out your car?
                 </h2>
-                <p class="mb-24 lg:mb-56 text-lg text-white text-opacity-60">
+                <p className="mb-24 lg:mb-56 text-lg text-white text-opacity-60">
                   For most currencies, there are no limits to the transfer
                   amount. Certain currencies might have limits set by our
                   payments partners. You will always see the limit in the
                   Revolut app before making the transfer.
                 </p>
-                <a class="group inline-flex items-center" href="rent">
+                <a className="group inline-flex items-center" href="rent">
                   <span class="mr-3.5 text-white font-medium underline">
                     Rent
                   </span>
                   <svg
-                    class="transform group-hover:rotate-90 transition duration-300"
+                    className="transform group-hover:rotate-90 transition duration-300"
                     width="13"
                     height="12"
                     viewbox="0 0 13 12"
@@ -58,23 +58,23 @@ function Private() {
                 </a>
               </div>
             </div>
-            <div class="w-full md:w-1/2 p-5">
-              <div class="p-12 lg:p-16 border border-gray-900 rounded-5xl">
-                <h2 class="mb-6 text-5xl text-white tracking-5xl">
+            <div className="w-full md:w-1/2 p-5">
+              <div className="p-12 lg:p-16 border border-gray-900 rounded-5xl">
+                <h2 className="mb-6 text-5xl text-white tracking-5xl">
                   Are you looking for a car to hire?
                 </h2>
-                <p class="mb-24 lg:mb-56 text-lg text-white text-opacity-60">
+                <p className="mb-24 lg:mb-56 text-lg text-white text-opacity-60">
                   For most currencies, there are no limits to the transfer
                   amount. Certain currencies might have limits set by our
                   payments partners. You will always see the limit in the
                   Revolut app before making the transfer.
                 </p>
-                <a class="group inline-flex items-center" href="hire">
-                  <span class="mr-3.5 text-white font-medium underline">
+                <a className="group inline-flex items-center" href="hire">
+                  <span className="mr-3.5 text-white font-medium underline">
                     Hire
                   </span>
                   <svg
-                    class="transform group-hover:rotate-90 transition duration-300"
+                    className="transform group-hover:rotate-90 transition duration-300"
                     width="13"
                     height="12"
                     viewbox="0 0 13 12"

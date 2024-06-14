@@ -3,14 +3,14 @@ import './move.css';
 function Move() {
   return (
     <div>
-      <div class="loader">
-        <div class="truckWrapper">
-          <div class="truckBody">
+      <div className="loader">
+        <div className="truckWrapper">
+          <div className="truckBody">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 198 93"
-              class="trucksvg"
+              className="trucksvg"
             >
               <path
                 stroke-width="3"
@@ -72,12 +72,12 @@ function Move() {
               ></rect>
             </svg>
           </div>
-          <div class="truckTires">
+          <div className="truckTires">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 30 30"
-              class="tiresvg"
+              className="tiresvg"
             >
               <circle
                 stroke-width="3"
@@ -93,7 +93,7 @@ function Move() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 30 30"
-              class="tiresvg"
+              className="tiresvg"
             >
               <circle
                 stroke-width="3"
@@ -106,7 +106,7 @@ function Move() {
               <circle fill="#DFDFDF" r="7" cy="15" cx="15"></circle>
             </svg>
           </div>
-          <div class="road"></div>
+          <div className="road"></div>
 
           <svg
             xml:space="preserve"
@@ -116,7 +116,7 @@ function Move() {
             id="Capa_1"
             version="1.1"
             fill="#000000"
-            class="lampPost"
+            className="lampPost"
           >
             <path
               d="M252.882,0c-37.781,0-68.686,29.953-70.245,67.358h-6.917v8.954c-26.109,2.163-45.463,10.011-45.463,19.366h9.993
