@@ -55,13 +55,13 @@ function Home() {
                   <div class="p-2 bg-white border-2 border-black rounded-md shadow">
                     <a
                       class="block p-2 text-sm font-bold text-black hover:text-indigo-500"
-                      href="#hire"
+                      href="hire"
                     >
                       Hire
                     </a>
                     <a
                       class="block p-2 text-sm font-bold text-black hover:text-indigo-500"
-                      href="#rent"
+                      href="rent"
                     >
                       Rent
                     </a>
