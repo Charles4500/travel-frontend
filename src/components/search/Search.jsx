@@ -20,7 +20,7 @@ function Search() {
     <div className="form-one">
       <section className="add-card page">
         <form className="form" onSubmit={handleSubmit}>
-          <label for="location" className="label">
+          <label htmlFor="location" className="label">
             <span className="title">Enter your location</span>
             <input
               className="input-field"
@@ -31,7 +31,7 @@ function Search() {
               onChange={handleInput}
             />
           </label>
-          <label for="serialCardNumber" className="label">
+          <label htmlFor="serialCardNumber" className="label">
             <span className="title">Enter your destination</span>
             <input
               className="input-field"
@@ -43,7 +43,7 @@ function Search() {
             />
           </label>
           <div className="split">
-            <label for="ExDate" className="label">
+            <label htmlFor="ExDate" className="label">
               <span className="title">Depart</span>
               <input
                 className="input-field"
@@ -54,7 +54,7 @@ function Search() {
                 onChange={handleInput}
               />
             </label>
-            <label for="cvv" className="label">
+            <label htmlFor="cvv" className="label">
               <span className="title">Passengers</span>
               <input
                 className="input-field"

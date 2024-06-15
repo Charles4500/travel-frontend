@@ -18,7 +18,7 @@ function Home() {
             <button class="navbar-burger flex items-center p-3 hover:bg-blue-300 rounded">
               <svg
                 class="text-white block h-4 w-4"
-                viewbox="0 0 20 20"
+                viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
               >
@@ -42,7 +42,7 @@ function Home() {
                 <svg
                   width="8"
                   height="6"
-                  viewbox="0 0 8 6"
+                  viewBox="0 0 8 6"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -124,7 +124,7 @@ function Home() {
                   <svg
                     width="20"
                     height="17"
-                    viewbox="0 0 20 17"
+                    viewBox="0 0 20 17"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -162,7 +162,7 @@ function Home() {
                   <svg
                     width="19"
                     height="13"
-                    viewbox="0 0 19 13"
+                    viewBox="0 0 19 13"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -192,7 +192,7 @@ function Home() {
                   <svg
                     width="20"
                     height="18"
-                    viewbox="0 0 20 18"
+                    viewBox="0 0 20 18"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -240,7 +240,7 @@ function Home() {
                   <svg
                     width="19"
                     height="13"
-                    viewbox="0 0 19 13"
+                    viewBox="0 0 19 13"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -270,7 +270,7 @@ function Home() {
                   <svg
                     width="18"
                     height="20"
-                    viewbox="0 0 18 20"
+                    viewBox="0 0 18 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -320,7 +320,7 @@ function Home() {
                   <svg
                     width="19"
                     height="13"
-                    viewbox="0 0 19 13"
+                    viewBox="0 0 19 13"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -366,7 +366,7 @@ function Home() {
                   className="h-6 w-6 text-gray-500 cursor-pointer hover:text-gray-500"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
-                  viewbox="0 0 24 24"
+                  viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
                   <path

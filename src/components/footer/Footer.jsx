@@ -22,7 +22,7 @@ function Footer() {
                         <svg
                           width="9"
                           height="16"
-                          viewbox="0 0 9 16"
+                          viewBox="0 0 9 16"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
@@ -40,7 +40,7 @@ function Footer() {
                         <svg
                           width="15"
                           height="13"
-                          viewbox="0 0 15 13"
+                          viewBox="0 0 15 13"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
@@ -58,7 +58,7 @@ function Footer() {
                         <svg
                           width="17"
                           height="17"
-                          viewbox="0 0 17 17"
+                          viewBox="0 0 17 17"
                           fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >

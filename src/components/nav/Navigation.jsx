@@ -23,7 +23,7 @@ function Navigation() {
           <button className="navbar-burger flex items-center p-3 hover:bg-blue-300 rounded">
             <svg
               className="text-white block h-4 w-4"
-              viewbox="0 0 20 20"
+              viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
             >
