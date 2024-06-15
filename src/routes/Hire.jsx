@@ -98,6 +98,7 @@ function Hire() {
           </form>
         </div>
       </div>
+
       <Footer />
     </>
   );

@@ -4,5 +4,11 @@ export default {
   theme: {
     extend: {},
   },
+  variants: {
+    extend: {
+      cursor: ['disabled'],
+      backgroundColor: ['disabled'],
+    },
+  },
   plugins: [],
 };
