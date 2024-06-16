@@ -1,6 +1,6 @@
 import './public.css';
 
-function Search() {
+function Search({ searchInput, setSearchInput }) {
   return (
     <div className="flex flex-wrap -mx-4">
       <div className="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
