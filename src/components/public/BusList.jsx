@@ -1,17 +1,39 @@
 import React from 'react';
 
-function BusList({ name, price, passengers }) {
+function BusList({ name, price, passengers, location_from, location_to }) {
+  function handleClick() {
+    alert('Ticket has been added');
+  }
   return (
     <div>
       <div className="shadow mt-2">
         <div className=" place-items-center">
-          <h3>{name}</h3>
-          <h3>Bus Fare{price}</h3>
-          <h3>Available seats:{passengers}</h3>
+          <h3>From: {location_from}</h3>
+          <h3> To: {location_to}</h3>
+          <h1
+            id="modal-title"
+            className="text-base font-semibold leading-6 text-gray-900"
+          >
+            {name}
+          </h1>
+
+          <h2
+            id="modal-title"
+            className="text-base font-semibold leading-6 text-gray-900"
+          >
+            Bus Fare: Ksh {price}
+          </h2>
+          <h3
+            id="modal-title"
+            className="text-base font-semibold leading-6 text-gray-900"
+          >
+            Available seats: {passengers}
+          </h3>
           <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
             <button
               class="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto"
               type="button"
+              onClick={handleClick}
             >
               Book Ticket
             </button>

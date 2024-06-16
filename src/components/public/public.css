@@ -3,3 +3,8 @@
   height: 450px;
   width: 1905px;
 }
+.form-two {
+  justify-content: center;
+  margin-top: 5px;
+  display: flex;
+}
