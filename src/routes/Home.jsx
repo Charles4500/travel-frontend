@@ -98,28 +98,19 @@ function Home() {
           alt=""
         />
         <div className="relative container pt-12 px-4 mb-20 mx-auto text-center">
-          <span className="text-blue-500 font-semibold">
-            What's new at Shuffle
-          </span>
           <h2 className="mt-8 mb-8 lg:mb-12 text-white text-4xl lg:text-6xl font-semibold">
             Traveling just got easier
           </h2>
           <p className="max-w-3xl mx-auto mb-8 lg:mb-12 text-white text-xl opacity-50">
-            Build a well-presented brand that everyone will love. Take care to
-            develop resources continually and integrity them with previous
-            projects.
+            Smoothen your movement from one place to another. From booking a bus
+            from the comfort of your home to renting a car.Explore our different
+            services
           </p>
-          <a
-            className="relative z-10 inline-block w-full md:w-auto mb-2 md:mb-0 px-8 py-4 mr-4 text-sm font-medium leading-normal bg-red-400 hover:bg-red-300 text-white rounded transition duration-200"
-            href="#"
-          >
-            Try for free
-          </a>
         </div>
         <div className="max-w-6xl px-4 mx-auto ">
           <div class="flex flex-wrap -mx-4">
             <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">
-              <div class="p-8 border border-blue-800 rounded-lg hover:bg-gray-900 hover:scale-110 duration-700 ">
+              <div class="p-8 border border-bg-white  rounded-lg hover:bg-gray-900 hover:scale-110 duration-700 ">
                 <span class="flex items-center justify-center mb-12 w-16 h-16 rounded-full bg-teal-500 ">
                   <svg
                     width="20"
@@ -187,7 +178,7 @@ function Home() {
               </div>
             </div>
             <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">
-              <div class="p-8 border border-blue-800 rounded-lg  hover:bg-gray-900 hover:scale-110 duration-700">
+              <div class="p-8 border border-bg-white  rounded-lg  hover:bg-gray-900 hover:scale-110 duration-700">
                 <span class="flex items-center justify-center mb-12 w-16 h-16 rounded-full bg-orange-500">
                   <svg
                     width="20"
@@ -226,12 +217,10 @@ function Home() {
                     ></path>
                   </svg>
                 </span>
-                <h3 class="mb-6 text-2xl text-white font-semibold">
-                  Easy changes
-                </h3>
+                <h3 class="mb-6 text-2xl text-white font-semibold">Private</h3>
                 <p class="mb-8 text-gray-500">
-                  Just check in here and grab your ticket at the comfort of your
-                  home
+                  Are you looking for a car to rent or rent out your car? Try
+                  our service.
                 </p>
                 <a
                   class="ml-auto flex items-center justify-center w-14 h-14 rounded-full bg-blue-800 hover:bg-blue-700 text-white"
@@ -265,7 +254,7 @@ function Home() {
               </div>
             </div>
             <div class="w-full md:w-1/3 px-4">
-              <div class="p-8 border border-blue-800 rounded-lg  hover:bg-gray-900 hover:scale-110 duration-700">
+              <div class="p-8 border border-bg-white  rounded-lg  hover:bg-gray-900 hover:scale-110 duration-700">
                 <span class="flex items-center justify-center mb-12 w-16 h-16 rounded-full bg-red-400">
                   <svg
                     width="18"
@@ -307,11 +296,11 @@ function Home() {
                   </svg>
                 </span>
                 <h3 class="mb-6 text-2xl text-white font-semibold">
-                  Place storage
+                  Relocating ?
                 </h3>
                 <p class="mb-8 text-gray-500">
-                  Just check in here and grab your ticket at the comfort of your
-                  home
+                  If your are locating and are looking for services to assist
+                  you move.
                 </p>
                 <a
                   class="ml-auto flex items-center justify-center w-14 h-14 rounded-full bg-blue-800 hover:bg-blue-700 text-white"

@@ -10,8 +10,8 @@ function Private() {
         <div className="container px-4 mx-auto">
           <div className="text-center mb-20">
             <h1 className="text-gray-300 md:max-w-md mx-auto">
-              If you are looking to hire out or rent out a car then this is the
-              best place to do this
+              If you are looking to hire out or rent a car then check out the
+              services we have
             </h1>
           </div>
           <div className="flex flex-wrap">
@@ -21,10 +21,7 @@ function Private() {
                   Are you renting out your car?
                 </h2>
                 <p className="mb-24 lg:mb-56 text-lg text-white text-opacity-60">
-                  For most currencies, there are no limits to the transfer
-                  amount. Certain currencies might have limits set by our
-                  payments partners. You will always see the limit in the
-                  Revolut app before making the transfer.
+                  Rent a car at really affordable rates
                 </p>
                 <a className="group inline-flex items-center" href="rent">
                   <span class="mr-3.5 text-white font-medium underline">
@@ -64,14 +61,11 @@ function Private() {
                   Are you looking for a car to hire?
                 </h2>
                 <p className="mb-24 lg:mb-56 text-lg text-white text-opacity-60">
-                  For most currencies, there are no limits to the transfer
-                  amount. Certain currencies might have limits set by our
-                  payments partners. You will always see the limit in the
-                  Revolut app before making the transfer.
+                  Earn extra cash by hiring out your car
                 </p>
                 <a className="group inline-flex items-center" href="hire">
                   <span className="mr-3.5 text-white font-medium underline">
-                    Hire
+                    Hire out
                   </span>
                   <svg
                     className="transform group-hover:rotate-90 transition duration-300"

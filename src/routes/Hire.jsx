@@ -39,7 +39,7 @@ function Hire() {
       <div className="flex flex-col items-center justify-center h-screen dark bg-[#292929]">
         <div className="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6">
           <h2 className="text-2xl font-bold text-gray-200 mb-4">
-            Product Feedback Form
+            Add your car
           </h2>
 
           <form className="flex flex-col" onSubmit={handleSubmit}>
