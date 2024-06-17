@@ -1,8 +1,9 @@
+import Booking from '../components/Tickets/Booking';
 import Footer from '../components/footer/Footer';
 import Navigation from '../components/nav/Navigation';
 import Front from '../components/public/Front';
 import Publict from '../components/public/Publict';
-import Search from '../components/public/Search';
+// import Search from '../components/public/Search';
 import { BASE_URL } from '../data';
 import { useEffect, useState } from 'react';
 function Public() {
@@ -26,7 +27,7 @@ function Public() {
     <div>
       <Navigation />
       <Front />
-      <Search setSearchInput={setSearchInput} searchInput={searchInput} />
+      <Booking />
       <Publict buses={filteredBuses} />
       <Footer />
     </div>
