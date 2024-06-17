@@ -24,13 +24,13 @@ function BusList({ name, price, passengers, location_from, location_to }) {
             id="modal-title"
             className="text-base font-semibold leading-6 text-gray-900"
           >
-            Bus Fare: Ksh {price}
+            Bus Fare: {passengers}
           </h2>
           <h3
             id="modal-title"
             className="text-base font-semibold leading-6 text-gray-900"
           >
-            Available seats: {passengers}
+            Available seats: {price}
           </h3>
           <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
             <button

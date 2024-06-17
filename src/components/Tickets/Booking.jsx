@@ -3,13 +3,13 @@ import { BASE_URL } from '../../data';
 function Booking() {
   const [locationFrom, setLocationFrom] = useState('');
   const [locationTo, setLocationTo] = useState('');
-
+  const [busId, setBusId] = useState('');
   const [availableSeats, setAvailableSeats] = useState(null);
   const [error, setError] = useState(null);
   const handleBooking = async () => {
     setError(null);
     try {
-      const response = await fetch(`${BASE_URL}/ticket`, {
+      const response = await fetch(`${BASE_URL}/tickets`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -17,12 +17,13 @@ function Booking() {
         body: JSON.stringify({
           location_from: locationFrom,
           location_to: locationTo,
+          bus_id: busId,
         }),
       });
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.message || 'Failed to book the ticket');
-      }
+      // if (!response.ok) {
+      //   const errorData = await response.json();
+      //   throw new Error(errorData.message || 'Failed to book the ticket');
+      // }
 
       const result = await response.json();
 
@@ -48,6 +49,13 @@ function Booking() {
           placeholder="Location To"
           value={locationTo}
           onChange={(e) => setLocationTo(e.target.value)}
+          required
+        />
+          <input
+          type="text"
+          placeholder="Bus ID"
+          value={busId}
+          onChange={(e) => setBusId(e.target.value)}
           required
         />
         <button type="button" onClick={handleBooking}>
